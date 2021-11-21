@@ -1,0 +1,216 @@
+header{
+    font-weight:bolder;
+    background: url('images/banniere.png') no-repeat;
+    background-size: cover;
+    height: 640px;
+   
+}
+body{
+        margin:0
+}
+    
+.half{
+        width: 49%;
+        display:inline-block;
+ } 
+ .para{
+     text-align: center;
+     
+ }
+ .pp{
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+     top: 170px;
+     font-size: 2em;
+ }
+
+    
+.container{
+    width:1144px;
+    margin:auto
+}
+#menu {
+        background-color:rgba(0, 0, 0, 0.5)
+}
+#menu ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+#menu li {
+    list-style-type: none;
+    display:inline-block;
+    color:white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding:10px;
+}
+
+#menu li:hover{
+    border: 1px solid #4bcaff;
+    color:#4bcaff;
+}
+
+footer{
+    flex-shrink: 0;
+    border-top: 0px darkslategrey #000;
+    width: 100%;
+    background: rgb(17, 211, 245);
+    color: rgb(255, 255, 255);
+    
+}
+.contenu-footer{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 10px 50px 20px;
+    text-align: left;
+    
+}
+h1{
+    margin: 0;
+}
+h3{
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.all{
+    width:1144px;
+    margin:auto;
+    text-align: center;
+    padding-left: 10px;
+}
+#portfolio h3{
+    font-size: 1em;
+    position: relative;
+    right: 15%;
+}
+#portfolio li {
+list-style-type: none;
+display:inline-block;
+color:rgb(10, 9, 9);
+text-transform: uppercase;
+font-size: 0.8em;
+border: 1px solid rgba(0, 0, 0, 0);
+padding:10px;
+text-align: right;
+}
+#portfolio li:hover{
+    border: 1px solid #4bcaff;
+    color:#4bcaff;
+}
+#gallery {
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.half ul{
+    display:flex;
+    justify-content: space-between;
+}
+.half li {
+    list-style-type: none;
+    display:inline-block;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding:10px;
+}
+.half li:hover{
+    border: 1px solid #4bcaff;
+    color:#4bcaff;
+}
+
+section {
+    padding:35px 0;
+}
+
+.bg-lightgrey {
+    background-color:#626665;
+    background-size: cover;
+}
+
+.underline {
+    border-bottom: 1px solid;
+}
+
+.Twitter {
+    background-color:#11c3f5;    
+}
+
+.top{
+    margin-left: 10px;
+}
+.chees{
+    color: white;
+}
+.icon{
+    position: relative;
+    text-align: center;
+    left: 15px;
+    bottom: 120px;  
+}
+.JOHN{
+    color: aliceblue;
+    background: url('images/presentation.png') no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.Rectangle{
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    left: 15px;
+    bottom: 171px;  
+}
+.TEST{
+    background-color:aliceblue;
+}
+.Walter{
+    color: #11c3f5;
+}
+.guillemet{
+    position: relative;
+    text-align: center;
+    left: 15px;
+    bottom: 120px;  
+}
+.CONTACT{
+    color: rgb(255, 255, 255);
+    background: url('images/presentation.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 705px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 6px;
+    background-color:rgba(207, 191, 191, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    
+  }
+  form{
+    display:block;
+    margin-top: 0em;
+  }
+  .Jujub{
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    left: 160px;
+    bottom: 447px;
+  }
+.coucou{
+    height: 90px;
+    width: 40%;
+}
